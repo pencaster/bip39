@@ -1,0 +1,45 @@
+Using browser: firefox
+Loading local html in firefox is broken, see https://stackoverflow.com/q/46367054
+You must run a server in this case, ie do this:
+$ cd /path/to/bip39/src
+$ python -m http.server
+Started
+...
+TEST:[avoid barely basket best belt bag below blame bless bomb boostbrief] for  ADDRESS:[0x0f04A44292C0A95a016190100920b7ec90eBB115]
+...
+F...
+TEST:[avoid barely basket best belt bag below blame bless bomb boost brief] for  ADDRESS:[0x0b04A44292C0A95a016190100920b7ec90eBB115]
+...
+VALID:[avoid barely basket best belt bag below blame bless bomb boost brief]
+ADDRESS:[0x0f04A44292C0A95a016190100920b7ec90eBB115]
+---NOT MATCHED ADDRESS:[0x0b04A44292C0A95a016190100920b7ec90eBB115]
+F...
+TEST:[avoid barely basket best belt bag below blame bless bomb boost brief] for  ADDRESS:[0x0f04A44292C0A95a016190100920b7ec90eBB115]
+...
+VALID:[avoid barely basket best belt bag below blame bless bomb boost brief]
+ADDRESS:[0x0f04A44292C0A95a016190100920b7ec90eBB115]
++++MATCHED ADDRESS:[0x0f04A44292C0A95a016190100920b7ec90eBB115]
+.
+
+Failures:
+1) BIP39 Tool Tests Allows selection of ethereum
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+2) BIP39 Tool Tests Allows selection of ethereum
+  Message:
+    Expected '0x0f04A44292C0A95a016190100920b7ec90eBB115' to be '0x0b04A44292C0A95a016190100920b7ec90eBB115'.
+  Stack:
+    Error: Expected '0x0f04A44292C0A95a016190100920b7ec90eBB115' to be '0x0b04A44292C0A95a016190100920b7ec90eBB115'.
+        at <Jasmine>
+        at C:\GitHub\bip39\tests\spec\bitgan.js:126:45
+        at ManagedPromise.invokeCallback_ (C:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+3 specs, 2 failures
+Finished in 24.663 seconds
