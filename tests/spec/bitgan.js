@@ -25,7 +25,7 @@ else {
 }
 
 // Globals
-
+var dict = require("./bip39_bg");
 var webdriver = require('selenium-webdriver');
 var By = webdriver.By;
 var Key = webdriver.Key;
@@ -44,10 +44,10 @@ var parentDir = path.resolve(process.cwd(), '..', 'src', 'index.html');
 var url = "file://" + parentDir;
 if (browser == "firefox") {
     // TODO loading local html in firefox is broken
-    console.log("Loading local html in firefox is broken, see https://stackoverflow.com/q/46367054");
-    console.log("You must run a server in this case, ie do this:");
-    console.log("$ cd /path/to/bip39/src");
-    console.log("$ python -m http.server");
+    //console.log("Loading local html in firefox is broken, see https://stackoverflow.com/q/46367054");
+    //console.log("You must run a server in this case, ie do this:");
+    //console.log("$ cd /path/to/bip39/src");
+    //console.log("$ python -m http.server");
     url = "http://localhost:8000";
 }
 
@@ -107,6 +107,7 @@ function testAddress(done, params) {
     var phrase = params.phrase || 'abandon abandon ability';
     driver.findElement(By.css('.phrase'))
         .sendKeys(phrase);
+    //console.log("Searching On:" + params.selectText);
     selectNetwork(params.selectText);
     var validPhrase=false;
     console.log("...");
@@ -118,8 +119,11 @@ function testAddress(done, params) {
                         validPhrase=true;
                         console.log("VALID:[" + phrase + "]")
                         console.log("ADDRESS:[" + address + "]")
-                        if (address == params.firstAddress)
+                        if (address.toLowerCase() === params.firstAddress.toLowerCase())
+                        {
                             console.log("+++MATCHED ADDRESS:[" + params.firstAddress + "]")
+                            process.exit(1);
+                        }
                          else   
                           console.log("---NOT MATCHED ADDRESS:[" + params.firstAddress + "]")
                         if ("firstAddress" in params) {
@@ -365,8 +369,28 @@ function testClientSelect(done, params) {
 
 // Tests
 
+function getRandom(arrInput, n) {
+    //shuffle the array
+    const arr = arrInput.sort(() => 0.5 - Math.random());
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+}
+
+var maxCount=1;
+var count = 0;
+
 describe('BIP39 Tool Tests', function() {
 
+    
     beforeEach(function(done) {
         driver = newDriver();
         driver.get(url).then(done);
@@ -377,38 +401,48 @@ describe('BIP39 Tool Tests', function() {
         driver.quit().then(done);
     });
 
+/*
+    driver = newDriver();
+    driver.get(url); 
+*/
+
+
 // BEGIN TESTS
+var searchPhrase=true;
+var addressLookup ="0xf41d94f651886F57440c1085653f422936B21e11";
+while(searchPhrase)
+{
 
+var addressPhrase="";
+var words = getRandom(dict, 12);
+for(var i=0;i<words.length;i++)
+{
+    addressPhrase = addressPhrase + " " + words[i];
+}
 
-it('Allows selection of ethereum', function(done) {
+addressPhrase = addressPhrase.trim();
+
+//addressPhrase = "avoid barely basket best belt bag below blame bless bomb boost brief";
+
+//console.log(count + ".["+addressPhrase+"]");
+
+var msg = "ETH:"+addressLookup;
+
+it(msg, function(done) {
     var params = {
         selectText: "ETH - Ethereum",
-        phrase: "avoid barely basket best belt bag below blame bless bomb boostbrief",
-        firstAddress: "0x0f04A44292C0A95a016190100920b7ec90eBB115"
+        phrase: addressPhrase,
+        firstAddress: addressLookup
     };
     testAddress(done, params);
 });
 
+//if (++count >= maxCount) searchPhrase=false;
+++count;
+searchPhrase=false;
 
-it('Allows selection of ethereum', function(done) {
-    var params = {
-        selectText: "ETH - Ethereum",
-        phrase: "avoid barely basket best belt bag below blame bless bomb boost brief",
-        firstAddress: "0x0b04A44292C0A95a016190100920b7ec90eBB115"
-    };
-    testAddress(done, params);
-});
-
-
-it('Allows selection of ethereum', function(done) {
-    var params = {
-        selectText: "ETH - Ethereum",
-        phrase: "avoid barely basket best belt bag below blame bless bomb boost brief",
-        firstAddress: "0x0f04A44292C0A95a016190100920b7ec90eBB115"
-    };
-    testAddress(done, params);
-});
-
+} //while
 
 
 });
+
