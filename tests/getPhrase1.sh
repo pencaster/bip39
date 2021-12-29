@@ -4,7 +4,7 @@ counter=1
 while [ $counter -le 1000000000000 ]
 do
 echo $counter
-jasmine spec/bitganFF.js >> bitGan1.log
+jasmine spec/bitganFF.js >> bb-ff-bitGan1.log
 ((counter++))
 done
 echo All done

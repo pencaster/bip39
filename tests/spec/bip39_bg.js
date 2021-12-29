@@ -112,7 +112,6 @@ module.exports = [
      "follow",
      "movements",
      "sun",
-     "????",
      "life",
      "planet",
      "much",
