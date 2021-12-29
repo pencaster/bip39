@@ -9,7 +9,7 @@
 // see https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode#Automated_testing_with_headless_mode
 
 // USER SPECIFIED OPTIONS
-var browser = "firefox"; // or "chrome"
+var browser = "chrome"; // "firefox"; // or "chrome"
 if (!browser) {
     console.log("Browser can be set via environment variable, eg");
     console.log("BROWSER=firefox jasmine spec/bitgan.js");
