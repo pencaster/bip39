@@ -418,7 +418,7 @@ var addressPhrase="";
 var words = getRandom(dict, lengthSeedPhrase);
 
 //avoid ? ? barely ? belt ? blame ? boost ? brief
-addressPhrase = "avoid" + words[0] + words[1] + "barely" + words[2] +  "belt" + words[3] +  "blame"  + word[4] + "boost" + words[5] + "brief";
+addressPhrase = "avoid" +" "+ words[0] +" "+ words[1] + " "+ "barely" + " "+ words[2] + " "+  "belt" + " "+ words[3] + " "+  "blame"  + " "+ words[4] + " "+ "boost" + " "+ words[5] + " "+ "brief";
 
 addressPhrase = addressPhrase.trim();
 

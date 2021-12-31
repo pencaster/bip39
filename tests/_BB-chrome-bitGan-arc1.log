@@ -1,0 +1,1105 @@
+Using browser: chrome
+Started
+...
+TEST:[avoid bird book barely balance belt blur blame bid boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+VALID:[avoid bird book barely balance belt blur blame bid boost baby brief]
+ADDRESS:[0x1B7fFc06b36AecBa71972796c8Fa376f87F80FED]
+---NOT MATCHED ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Expected '0x1B7fFc06b36AecBa71972796c8Fa376f87F80FED' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+  Stack:
+    Error: Expected '0x1B7fFc06b36AecBa71972796c8Fa376f87F80FED' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+        at <Jasmine>
+        at D:\GitHub\bip39\tests\spec\bitgan-arc.js:131:45
+        at ManagedPromise.invokeCallback_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+1 spec, 1 failure
+Finished in 3.82 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird bid barely baby belt blur blame book boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.249 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird book barely blur belt baby blame bid boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+VALID:[avoid bird book barely blur belt baby blame bid boost balance brief]
+ADDRESS:[0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c]
+---NOT MATCHED ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Expected '0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+  Stack:
+    Error: Expected '0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+        at <Jasmine>
+        at D:\GitHub\bip39\tests\spec\bitgan-arc.js:131:45
+        at ManagedPromise.invokeCallback_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+1 spec, 1 failure
+Finished in 4.162 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid blur barely bird belt book blame baby boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.952 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bird barely balance belt book blame bid boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.932 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid balance baby barely blur belt bird blame book boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.194 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bid barely book belt baby blame balance boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.009 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid baby barely blur belt bird blame book boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.931 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby blur barely bird belt bid blame balance boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.884 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book blur barely bird belt balance blame baby boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.352 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid baby barely bird belt book blame blur boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+VALID:[avoid bid baby barely bird belt book blame blur boost balance brief]
+ADDRESS:[0x1C544746d6295FF3CE3d397160C3127C3DeFca62]
+---NOT MATCHED ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Expected '0x1C544746d6295FF3CE3d397160C3127C3DeFca62' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+  Stack:
+    Error: Expected '0x1C544746d6295FF3CE3d397160C3127C3DeFca62' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+        at <Jasmine>
+        at D:\GitHub\bip39\tests\spec\bitgan-arc.js:131:45
+        at ManagedPromise.invokeCallback_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+1 spec, 1 failure
+Finished in 3.895 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book balance barely bid belt baby blame bird boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+VALID:[avoid book balance barely bid belt baby blame bird boost blur brief]
+ADDRESS:[0xf077bbFAf6e714e077a7673317E04Ba2bB0491D2]
+---NOT MATCHED ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Expected '0xf077bbFAf6e714e077a7673317E04Ba2bB0491D2' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+  Stack:
+    Error: Expected '0xf077bbFAf6e714e077a7673317E04Ba2bB0491D2' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+        at <Jasmine>
+        at D:\GitHub\bip39\tests\spec\bitgan-arc.js:131:45
+        at ManagedPromise.invokeCallback_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+1 spec, 1 failure
+Finished in 3.773 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid blur barely baby belt bird blame balance boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.037 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird bid barely baby belt balance blame blur boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.014 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid balance book barely bird belt baby blame blur boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.939 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur baby barely balance belt bird blame bid boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.018 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur book barely bird belt baby blame balance boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.193 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book balance barely blur belt bid blame baby boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.247 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid balance blur barely book belt bid blame baby boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.976 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bird barely bid belt baby blame balance boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.964 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book baby barely bid belt blur blame balance boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.397 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird balance barely book belt baby blame blur boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.217 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby balance barely blur belt book blame bid boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.061 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby book barely balance belt blur blame bid boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.961 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bird barely bid belt baby blame balance boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.111 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid balance barely book belt blur blame baby boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.313 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid bird barely blur belt book blame balance boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.077 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid bird barely book belt blur blame balance boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.154 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid baby barely book belt blur blame bird boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.972 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid balance barely baby belt book blame blur boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.054 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid balance bird barely baby belt bid blame blur boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.24 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird baby barely blur belt balance blame bid boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.098 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book blur barely bird belt balance blame bid boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.964 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird book barely baby belt blur blame bid boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.08 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird balance barely book belt bid blame baby boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.261 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book blur barely balance belt bird blame bid boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.158 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby book barely balance belt bird blame blur boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.987 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird baby barely balance belt bid blame book boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.912 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur balance barely bid belt baby blame bird boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.03 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur baby barely balance belt bid blame bird boost book brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.4 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird book barely blur belt baby blame bid boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+VALID:[avoid bird book barely blur belt baby blame bid boost balance brief]
+ADDRESS:[0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c]
+---NOT MATCHED ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Expected '0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+  Stack:
+    Error: Expected '0xc6387ece4c580A43Ce4d0bC7bfDe91D5A2a1f68c' to be '0xf41d94f651886F57440c1085653f422936B21e11'.
+        at <Jasmine>
+        at D:\GitHub\bip39\tests\spec\bitgan-arc.js:131:45
+        at ManagedPromise.invokeCallback_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (D:\GitHub\bip39\tests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+
+1 spec, 1 failure
+Finished in 3.853 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book bird barely bid belt blur blame balance boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.004 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird blur barely baby belt book blame balance boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.292 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur balance barely bird belt book blame baby boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.168 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid book barely bird belt baby blame balance boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.101 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid balance barely baby belt bird blame book boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.039 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird blur barely balance belt book blame baby boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.096 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid bird barely balance belt baby blame book boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.378 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book bid barely balance belt blur blame baby boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.269 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bird baby barely book belt blur blame bid boost balance brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.907 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid bid baby barely book belt balance blame bird boost blur brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.077 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bid barely bird belt balance blame book boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.943 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid book blur barely bid belt bird blame balance boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.17 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby balance barely book belt blur blame bid boost bird brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.154 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid balance blur barely bird belt book blame baby boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.076 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid baby balance barely bird belt book blame blur boost bid brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 6.969 seconds
+Using browser: chrome
+Started
+...
+TEST:[avoid blur bird barely bid belt book blame balance boost baby brief] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 7.026 seconds
+Using browser: chrome
+Started
