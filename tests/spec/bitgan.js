@@ -25,7 +25,8 @@ else {
 }
 
 // Globals
-var dict = require("./bip39_bg_hint");
+var lengthSeedPhrase=12;
+var dict = require("./bip39_bg_arc");
 var webdriver = require('selenium-webdriver');
 var By = webdriver.By;
 var Key = webdriver.Key;
@@ -414,7 +415,7 @@ while(searchPhrase)
 {
 
 var addressPhrase="";
-var words = getRandom(dict, 12);
+var words = getRandom(dict, lengthSeedPhrase);
 for(var i=0;i<words.length;i++)
 {
     addressPhrase = addressPhrase + " " + words[i];
