@@ -9468,3 +9468,69 @@ Failures:
 
 1 spec, 1 failure
 Finished in 9.044 seconds
+Using browser: firefox
+Started
+...
+TEST:[border birth best they bar brain boss behind axis blade brick away] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 10.403 seconds
+Using browser: firefox
+Started
+...
+TEST:[blossom blanket awesome brain blame beauty banana blade bracket border black bird] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 10.926 seconds
+Using browser: firefox
+Started
+...
+TEST:[ball boring blame bid blush border box bike believe away bind brand] for  ADDRESS:[0xf41d94f651886F57440c1085653f422936B21e11]
+...
+F
+
+Failures:
+1) BIP39 Tool Tests ETH:0xf41d94f651886F57440c1085653f422936B21e11
+  Message:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+  Stack:
+    Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+        at <Jasmine>
+        at listOnTimeout (node:internal/timers:557:17)
+        at processTimers (node:internal/timers:500:7)
+
+1 spec, 1 failure
+Finished in 10.233 seconds
+Using browser: firefox
+Started

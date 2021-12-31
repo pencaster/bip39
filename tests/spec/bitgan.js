@@ -25,7 +25,7 @@ else {
 }
 
 // Globals
-var dict = require("./bip39_bg");
+var dict = require("./bip39_bg_hint");
 var webdriver = require('selenium-webdriver');
 var By = webdriver.By;
 var Key = webdriver.Key;
