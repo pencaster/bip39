@@ -25,8 +25,8 @@ else {
 }
 
 // Globals
-var lengthSeedPhrase=12;
-var dict = require("./bip39_bg_bin");
+var lengthSeedPhrase=18;
+var dict = require("./bip39_18");
 var webdriver = require('selenium-webdriver');
 var By = webdriver.By;
 var Key = webdriver.Key;
